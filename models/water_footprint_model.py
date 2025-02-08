@@ -1,9 +1,10 @@
-from openai import OpenAI
+import openai
+
 
 # Initialize the OpenAI client with OpenRouter
-client = OpenAI(
+client = openai.OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key="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",  # Replace with your OpenRouter API key
+    api_key="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",  # Replace with your OpenRouter API key
 )
 
 def predict(
