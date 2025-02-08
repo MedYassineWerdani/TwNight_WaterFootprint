@@ -15,6 +15,10 @@ client = OpenAI(
     api_key=API_KEY,
 )
 
+@app.route('/')
+def home(): "FUCK OFF KOUKI"
+
+
 @app.route('/calculate', methods=['POST'])
 def calculate():
     data = request.json
