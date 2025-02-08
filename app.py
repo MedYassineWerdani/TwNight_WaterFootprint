@@ -16,7 +16,7 @@ client = OpenAI(
 )
 
 @app.route('/')
-def home(): "FUCK OFF KOUKI"
+def home(): return "FUCK OFF KOUKI"
 
 
 @app.route('/calculate', methods=['POST'])
